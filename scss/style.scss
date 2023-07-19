@@ -17,6 +17,7 @@ body {
   // background-size: contain;
   background-repeat: no-repeat;
   min-height: 253.18vw;
+  position: relative;
 }
 
 .wrapper {
@@ -51,7 +52,7 @@ body {
 }
 
 .year {
-  font-size: clamp(1rem, 5vw, 5.625rem); //60px
+  font-size: clamp(1rem, 5vw, 8.625rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   position: absolute;
@@ -68,9 +69,9 @@ body {
     margin-bottom: 27px;
   }
   &__text {
-    font-size: clamp(0.4em, 1.6vw, 1.875rem);
+    font-size: clamp(0.4em, 1.6vw, 2.875rem);
     width: 45.5vw;
-    max-width: 846px;
+    max-width: 1209px;
     margin-left: 3.96vw;
     line-height: 112.5%;
   }
@@ -121,7 +122,7 @@ body {
 
   &__img-text {
     margin-top: -11px;
-    margin-left: -0.43vw;
+    /* margin-left: -0.43vw; */
     font-size: clamp(0.3em, 1vw, 1.4rem);
   }
 
@@ -134,7 +135,7 @@ body {
 
   &__right-text {
     text-wrap: balance;
-    font-size: clamp(0.4rem, 1.5vw, 1.875rem);
+    font-size: clamp(0.4rem, 1.5vw, 2.875rem);
     width: 34.69vw;
     margin-top: -0.5vw;
     line-height: 112.5%;
@@ -167,8 +168,8 @@ body {
 
 .maria {
   width: 35.47vw;
-  max-width: 681px;
-  font-size: clamp(0.4em, 1.5vw, 1.875rem); //30px
+  max-width: 1036px;
+  font-size: clamp(0.4em, 1.5vw, 2.875rem);
   position: absolute;
   top: 150.94vw;
   right: 11.09vw;
@@ -225,8 +226,8 @@ body {
 
 .context_text {
   width: 22.86vw;
-  max-width: 439px;
-  font-size: clamp(0.4em, 1.5vw, 1.875rem);
+  max-width: 636px;
+  font-size: clamp(0.4em, 1.5vw, 2.875rem);
   position: absolute;
   top: 151vw;
   left: 6.56vw;
@@ -250,8 +251,8 @@ body {
 
 .thread_text {
   width: 50vw;
-  max-width: 1000px;
-  font-size: clamp(0.4em, 1.6vw, 1.875rem);
+  max-width: 1450px;
+  font-size: clamp(0.4em, 1.6vw, 2.875rem);
   position: absolute;
   top: 184.4vw;
   right: 12.5vw;
@@ -297,11 +298,11 @@ body {
 .mag-text {
   width: 61.4vw;
   max-width: 911px;
-  font-size: clamp(0.4em, 1.5vw, 1.875rem);
+  font-size: clamp(0.4em, 1.5vw, 2.875rem);
   position: absolute;
   top: 238.85vw;
   left: 7.4vw;
-  max-width: 913px;
+  max-width: 1340px;
 }
 
 .mag__img-text {
