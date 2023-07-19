@@ -302,13 +302,13 @@ body {
 }
 
 .mag-text {
-  width: 44.4vw;
+  width: 61.4vw;
   max-width: 911px;
-  font-size: clamp(0.4em, 1vw, 1.875rem);
+  font-size: clamp(0.4em, 1.5vw, 1.875rem);
   position: absolute;
   top: 238.85vw;
   left: 7.4vw;
-  max-width: 671px;
+  max-width: 913px;
 }
 
 .mag__img-text {
