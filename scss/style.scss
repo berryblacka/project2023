@@ -23,7 +23,7 @@ body {
   height: 100%;
   min-height: 253.18vw;
   background-image: url("../img/line3.svg");
-  /* background-size: cover; */
+  background-size: contain;
   width: 100%;
   background-position: 0vw 1.9vw;
   background-repeat: no-repeat;
@@ -41,18 +41,21 @@ body {
 
 .SummerCamps_heading {
   position: absolute;
-  top: 80.45vw;
-  left: 8.5vw;
-  font-size: clamp(0.5rem, 3vw, 3.75rem); //60px
+  top: 78.7vw;
+  left: 7.2vw;
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
+  // letter-spacing: 0.1rem;
 }
 
 .year {
-  width: 16.8vw;
+  font-size: clamp(1rem, 5vw, 5.625rem); //60px
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   position: absolute;
   top: 9.38vw;
-  right: 23.6vw;
+  right: 27vw;
 }
 
 .throughRussia {
@@ -68,6 +71,7 @@ body {
     width: 42.5vw;
     max-width: 839px;
     margin-left: 3.96vw;
+    line-height: 112.5%;
   }
 }
 
@@ -77,8 +81,7 @@ body {
   width: 1.56vw;
   height: 1.56vw;
   position: absolute;
-  top: 84.7vw;
-  // left: 26.77vw;
+  top: 82.8vw;
   left: 19.53vw;
 }
 
@@ -141,6 +144,15 @@ body {
   left: 46.88vw;
   top: 161.61vw;
 }
+.dot4 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  left: 27.5vw;
+  top: 166vw;
+}
 
 .maria {
   width: 35.47vw;
@@ -151,10 +163,36 @@ body {
   right: 11.09vw;
 }
 
+.bird {
+  position: absolute;
+  top: 186.93vw;
+  left: 11.2vw;
+  width: 14.58vw;
+}
+
+.dot5 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  left: 37.4vw;
+  top: 201.61vw;
+}
+.dot6 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  left: 34.01vw;
+  top: 214.17vw;
+}
+
 .Contest_heading {
   position: absolute;
-  top: 160vw;
-  right: 17.08vw;
+  top: 160.5vw;
+  right: 10.08vw;
   font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
