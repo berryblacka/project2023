@@ -69,7 +69,7 @@ body {
   font-weight: 500;
   position: absolute;
   top: 9.38vw;
-  right: 27.8vw;
+  right: 27vw;
 }
 
 .throughRussia {
@@ -225,7 +225,7 @@ body {
   position: absolute;
   width: 20.73vw;
   left: 7.34vw;
-  top: 141.15vw;
+  top: 140.15vw;
 }
 
 .context_text {
@@ -233,7 +233,7 @@ body {
   max-width: 439px;
   font-size: clamp(0.4em, 1.5vw, 1.875rem);
   position: absolute;
-  top: 151.67vw;
+  top: 151vw;
   left: 6.56vw;
 }
 
@@ -249,22 +249,22 @@ body {
 .thread {
   position: absolute;
   width: 33.59vw;
-  top: 169.43vw;
-  left: 36.93vw;
+  top: 173vw;
+  left: 37.5vw;
 }
 
 .thread_text {
-  width: 54.69vw;
-  max-width: 1050px;
+  width: 50vw;
+  max-width: 1000px;
   font-size: clamp(0.4em, 1.5vw, 1.875rem);
   position: absolute;
-  top: 180.89vw;
-  right: 7.92vw;
+  top: 184.4vw;
+  right: 12.5vw;
 }
 
 .thread_heading {
   position: absolute;
-  top: 194.48vw;
+  top: 197.2vw;
   right: 36.56vw;
   font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
