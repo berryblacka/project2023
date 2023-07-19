@@ -94,10 +94,14 @@ body {
   position: absolute;
   font-size: clamp(0.4em, 1.5vw, 1.875rem);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 112.5%; /* 33.75px */
   top: 20.99vw;
   right: 22.86vw;
+}
+
+.dis {
+  display: block !important;
 }
 
 .dot2 {
