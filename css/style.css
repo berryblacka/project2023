@@ -139,14 +139,10 @@ body {
 }
 .SummerCamps__right-text {
   text-wrap: balance;
-  font-size: clamp(0.4rem, 1.5vw, 1.875rem);
+  font-size: clamp(0.4rem, 1.6vw, 1.875rem);
   width: 34.69vw;
-}
-@media (max-width: 1440px) {
-  .SummerCamps__right-text {
-    margin: 0;
-    width: 39.69vw;
-  }
+  margin-top: -0.5vw;
+  line-height: 112.5%;
 }
 .SummerCamps__right-img {
   width: 5.47vw;
@@ -269,7 +265,7 @@ body {
 
 .thread_heading {
   position: absolute;
-  top: 197.2vw;
+  top: 195.2vw;
   right: 36.56vw;
   font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
