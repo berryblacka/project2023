@@ -130,7 +130,7 @@ body {
   position: relative;
 }
 .SummerCamps__img-text {
-  margin-top: -11px;
+  margin-top: -20px;
   /* margin-left: -0.43vw; */
   font-size: clamp(0.3em, 1vw, 1.4rem);
 }
@@ -310,7 +310,7 @@ body {
 }
 
 .mag__img-text {
-  margin-top: 0px;
+  margin-top: -20px;
   text-align: end;
   font-size: clamp(0.3em, 1vw, 1.4rem);
 }/*# sourceMappingURL=style.css.map */

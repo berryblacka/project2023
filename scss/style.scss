@@ -121,7 +121,7 @@ body {
   }
 
   &__img-text {
-    margin-top: -11px;
+    margin-top: -20px;
     /* margin-left: -0.43vw; */
     font-size: clamp(0.3em, 1vw, 1.4rem);
   }
@@ -306,8 +306,7 @@ body {
 }
 
 .mag__img-text {
-  margin-top: 0px;
-  // font-size: clamp(0.3rem, 1.5vw, 1.3rem);
+  margin-top: -20px;
   text-align: end;
   font-size: clamp(0.3em, 1vw, 1.4rem);
 }
