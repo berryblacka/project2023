@@ -139,7 +139,7 @@ body {
 }
 .SummerCamps__right-text {
   text-wrap: balance;
-  font-size: clamp(0.4rem, 1.6vw, 1.875rem);
+  font-size: clamp(0.4rem, 1.5vw, 1.875rem);
   width: 34.69vw;
   margin-top: -0.5vw;
   line-height: 112.5%;
@@ -265,7 +265,7 @@ body {
 
 .thread_heading {
   position: absolute;
-  top: 195.2vw;
+  top: 197.2vw;
   right: 36.56vw;
   font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -310,6 +310,6 @@ body {
 
 .mag__img-text {
   margin-top: 0px;
-  font-size: clamp(0.3rem, 1.5vw, 1.3rem);
   text-align: end;
+  font-size: clamp(0.3em, 1vw, 1.4rem);
 }/*# sourceMappingURL=style.css.map */
