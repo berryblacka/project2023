@@ -68,9 +68,9 @@ body {
     margin-bottom: 27px;
   }
   &__text {
-    font-size: clamp(0.4em, 1.5vw, 1.875rem);
-    width: 42.5vw;
-    max-width: 839px;
+    font-size: clamp(0.4em, 1.6vw, 1.875rem);
+    width: 45.5vw;
+    max-width: 846px;
     margin-left: 3.96vw;
     line-height: 112.5%;
   }
@@ -165,7 +165,7 @@ body {
   height: 1.56vw;
   position: absolute;
   left: 27.5vw;
-  top: 166vw;
+  top: 165.6vw;
 }
 
 .maria {
@@ -254,10 +254,11 @@ body {
 .thread_text {
   width: 50vw;
   max-width: 1000px;
-  font-size: clamp(0.4em, 1.5vw, 1.875rem);
+  font-size: clamp(0.4em, 1.6vw, 1.875rem);
   position: absolute;
   top: 184.4vw;
   right: 12.5vw;
+  line-height: 112.5%;
 }
 
 .thread_heading {
@@ -308,6 +309,6 @@ body {
 
 .mag__img-text {
   margin-top: 0px;
-  font-size: clamp(0.3em, 1.5vw, 1.4rem);
+  font-size: clamp(0.3rem, 1.5vw, 1.3rem);
   text-align: end;
 }
