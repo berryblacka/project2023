@@ -1,0 +1,10 @@
+@use "fonts";
+html {
+  height: 101%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Fors Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Fors Regular";
+  src: url("../fonts/TTForsEducationalRegular.woff2") format("woff2"),
+    url("../fonts/TTForsEducationalRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Fors Medium";
+  src: url("../fonts/TTForsEducationalMedium.woff2") format("woff2"),
+    url("../fonts/TTForsEducationalMedium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Fors DemiBold";
+  src: url("../fonts/TTForsEducationalDemiBold.woff2") format("woff2"),
+    url("../fonts/TTForsEducationalDemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}

@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Fors Regular";
+  src: url("../fonts/TTForsEducationalRegular.woff2") format("woff2"), url("../fonts/TTForsEducationalRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Fors Medium";
+  src: url("../fonts/TTForsEducationalMedium.woff2") format("woff2"), url("../fonts/TTForsEducationalMedium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Fors DemiBold";
+  src: url("../fonts/TTForsEducationalDemiBold.woff2") format("woff2"), url("../fonts/TTForsEducationalDemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+html {
+  height: 101%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Fors Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url("../img/line.svg");
+  background-size: cover;
+  width: 100%;
+  background-position: -1.1vw 2.1vw;
+  background-repeat: no-repeat;
+  min-height: 253.18vw;
+}
+
+.dot1 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  top: 16.2vw;
+  right: 31.72vw;
+}
+
+.year {
+  width: 16.8vw;
+  position: absolute;
+  top: 9.38vw;
+  right: 23.6vw;
+}
+
+.throughRussia {
+  position: absolute;
+  top: 26.15vw;
+  left: 1.72vw;
+}
+.throughRussia__heading {
+  width: 45vw;
+  margin-bottom: 27px;
+}
+.throughRussia__text {
+  font-size: clamp(0.6em, 3vw, 1.875rem);
+  width: 42.5vw;
+  max-width: 839px;
+  margin-left: 3.96vw;
+}
+
+.dot2 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  top: 85.5vw;
+  left: 26.77vw;
+}
+
+.SummerCamps {
+  position: absolute;
+  top: 89.32vw;
+  display: flex;
+  gap: 3.44vw;
+  margin: 0 auto;
+  width: 81.82vw;
+  margin-left: 6.2vw;
+}
+.SummerCamps__img-true {
+  width: 43.8vw;
+}
+.SummerCamps__img-text {
+  margin-top: 18px;
+  font-size: clamp(0.3em, 3vw, 1.4rem);
+}
+.SummerCamps__right-text {
+  text-wrap: balance;
+  font-size: clamp(0.6em, 3vw, 1.875rem);
+  width: 34.69vw;
+  margin-top: 14.48vw;
+}
+@media (max-width: 1440px) {
+  .SummerCamps__right-text {
+    margin: 0;
+    width: 39.69vw;
+  }
+}
+.SummerCamps__right-img {
+  width: 5.47vw;
+  margin-top: 6.59vw;
+}
+
+.dot3 {
+  border-radius: 50%;
+  background-color: black;
+  width: 1.56vw;
+  height: 1.56vw;
+  position: absolute;
+  left: 45.26vw;
+  top: 140.78vw;
+}
+
+.maria {
+  width: 35.47vw;
+  max-width: 681px;
+  font-size: clamp(0.6em, 3vw, 1.875rem);
+  position: absolute;
+  top: 146.41vw;
+  left: 6.2vw;
+}/*# sourceMappingURL=style.css.map */
