@@ -17,22 +17,31 @@
   font-weight: 600;
 }
 html {
-  height: 101%;
+  min-height: 100%;
 }
 
 body {
   height: 100%;
   overflow-x: hidden;
   font-family: "Fors Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 body {
+  background: linear-gradient(180deg, #eefec0 2.5%, #fff 23.96%, #ffeba9 32.87%, #ffe89b 36.2%, #fff 50.31%, #ffd8df 58.09%, #ffcfd8 63.25%, #ffd7de 66.25%, #fff 75.27%, #c8e6f3 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 253.18vw;
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 253.18vw;
   background-image: url("../img/line.svg");
   background-size: cover;
   width: 100%;
   background-position: -1.1vw 2.1vw;
   background-repeat: no-repeat;
-  min-height: 253.18vw;
 }
 
 .dot1 {
@@ -43,6 +52,15 @@ body {
   position: absolute;
   top: 16.2vw;
   right: 31.72vw;
+}
+
+.SummerCamps_heading {
+  position: absolute;
+  top: 80.45vw;
+  left: 8.5vw;
+  font-size: clamp(0.5rem, 5vw, 5.625rem);
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 
 .year {
@@ -75,7 +93,7 @@ body {
   height: 1.56vw;
   position: absolute;
   top: 85.5vw;
-  left: 26.77vw;
+  left: 19.53vw;
 }
 
 .SummerCamps {
@@ -88,17 +106,22 @@ body {
   margin-left: 6.2vw;
 }
 .SummerCamps__img-true {
-  width: 43.8vw;
+  width: 40vw;
+  z-index: -1;
+  position: relative;
 }
 .SummerCamps__img-text {
   margin-top: 18px;
   font-size: clamp(0.3em, 3vw, 1.4rem);
 }
+.SummerCamps__right-heading {
+  width: 31.61vw;
+  margin-top: 9.69vw;
+}
 .SummerCamps__right-text {
   text-wrap: balance;
   font-size: clamp(0.6em, 3vw, 1.875rem);
   width: 34.69vw;
-  margin-top: 14.48vw;
 }
 @media (max-width: 1440px) {
   .SummerCamps__right-text {
@@ -108,7 +131,7 @@ body {
 }
 .SummerCamps__right-img {
   width: 5.47vw;
-  margin-top: 6.59vw;
+  margin-top: 2.24vw;
 }
 
 .dot3 {
@@ -128,4 +151,13 @@ body {
   position: absolute;
   top: 146.41vw;
   left: 6.2vw;
+}
+
+.Contest_heading {
+  position: absolute;
+  top: 139vw;
+  right: 21.18vw;
+  font-size: clamp(0.5rem, 5vw, 5.625rem);
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
