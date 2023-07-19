@@ -67,7 +67,7 @@ body {
     margin-bottom: 27px;
   }
   &__text {
-    font-size: clamp(0.6em, 1.5vw, 1.875rem);
+    font-size: clamp(0.4em, 1.5vw, 1.875rem);
     width: 42.5vw;
     max-width: 839px;
     margin-left: 3.96vw;
@@ -120,7 +120,7 @@ body {
 
   &__right-text {
     text-wrap: balance;
-    font-size: clamp(0.6rem, 1.5vw, 1.875rem); //30px
+    font-size: clamp(0.4rem, 1.5vw, 1.875rem); //30px
     width: 34.69vw;
     // margin-top: 14.48vw;
     @media (max-width: 1440px) {
@@ -157,7 +157,7 @@ body {
 .maria {
   width: 35.47vw;
   max-width: 681px;
-  font-size: clamp(0.6em, 1.5vw, 1.875rem); //30px
+  font-size: clamp(0.4em, 1.5vw, 1.875rem); //30px
   position: absolute;
   top: 150.94vw;
   right: 11.09vw;
@@ -215,7 +215,7 @@ body {
 .context_text {
   width: 22.86vw;
   max-width: 439px;
-  font-size: clamp(0.6em, 1.5vw, 1.875rem); //30px
+  font-size: clamp(0.4em, 1.5vw, 1.875rem); //30px
   position: absolute;
   top: 151.67vw;
   left: 6.56vw;
@@ -240,7 +240,7 @@ body {
 .thread_text {
   width: 54.69vw;
   max-width: 1050px;
-  font-size: clamp(0.6em, 1.5vw, 1.875rem); //30px
+  font-size: clamp(0.4em, 1.5vw, 1.875rem); //30px
   position: absolute;
   top: 180.89vw;
   right: 7.92vw;
@@ -285,7 +285,7 @@ body {
 .mag-text {
   width: 47.4vw;
   max-width: 910px;
-  font-size: clamp(0.6em, 1.5vw, 1.875rem); //30px
+  font-size: clamp(0.4em, 1.5vw, 1.875rem); //30px
   position: absolute;
   top: 238.85vw;
   left: 7.4vw;
