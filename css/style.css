@@ -39,7 +39,7 @@ body {
   background-image: url("../img/line3.svg");
   background-size: contain;
   width: 100%;
-  background-position: 0vw 1.9vw;
+  background-position: -0.1vw 1.9vw;
   background-repeat: no-repeat;
 }
 
@@ -112,12 +112,12 @@ body {
 
 .SummerCamps {
   position: absolute;
-  top: 89.32vw;
+  top: 90.32vw;
   display: flex;
-  gap: 3.44vw;
+  gap: 6.44vw;
   margin: 0 auto;
   width: 81.82vw;
-  margin-left: 6.2vw;
+  margin-left: 7.2vw;
 }
 .SummerCamps__img-true {
   width: 40vw;
@@ -125,12 +125,13 @@ body {
   position: relative;
 }
 .SummerCamps__img-text {
-  margin-top: 18px;
-  font-size: clamp(0.3em, 3vw, 1.4rem);
+  margin-top: -11px;
+  margin-left: -0.43vw;
+  font-size: clamp(0.3em, 1vw, 1.4rem);
 }
 .SummerCamps__right-heading {
   width: 31.61vw;
-  margin-top: 9.69vw;
+  margin-top: 8.5vw;
 }
 .SummerCamps__right-text {
   text-wrap: balance;
@@ -179,7 +180,7 @@ body {
 
 .bird {
   position: absolute;
-  top: 186.93vw;
+  top: 186.7vw;
   left: 11.2vw;
   width: 14.58vw;
 }
@@ -200,7 +201,7 @@ body {
   width: 1.56vw;
   height: 1.56vw;
   position: absolute;
-  left: 34.01vw;
+  left: 34.4vw;
   top: 214.17vw;
 }
 
@@ -273,11 +274,11 @@ body {
 .mag__img {
   position: absolute;
   z-index: -1;
-  top: 203.96vw;
+  top: 204.96vw;
   right: 5.63vw;
 }
 .mag__img-true {
-  width: 39.69vw;
+  width: 37.69vw;
 }
 
 .mag_heading {
@@ -306,7 +307,7 @@ body {
 }
 
 .mag__img-text {
-  margin-top: 18px;
-  font-size: clamp(0.3em, 3vw, 1.4rem);
+  margin-top: 0px;
+  font-size: clamp(0.3em, 1.5vw, 1.4rem);
   text-align: end;
 }/*# sourceMappingURL=style.css.map */
