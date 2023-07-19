@@ -29,7 +29,6 @@ body {
 
 body {
   background: linear-gradient(180deg, #eefec0 2.5%, #fff 23.96%, #ffeba9 32.87%, #ffe89b 36.2%, #fff 50.31%, #ffd8df 58.09%, #ffcfd8 63.25%, #ffd7de 66.25%, #fff 75.27%, #c8e6f3 100%);
-  background-size: cover;
   background-repeat: no-repeat;
   min-height: 253.18vw;
 }
@@ -37,10 +36,10 @@ body {
 .wrapper {
   height: 100%;
   min-height: 253.18vw;
-  background-image: url("../img/line.svg");
-  background-size: cover;
+  background-image: url("../img/line3.svg");
+  /* background-size: cover; */
   width: 100%;
-  background-position: -1.1vw 2.1vw;
+  background-position: 0vw 1.9vw;
   background-repeat: no-repeat;
 }
 
@@ -50,7 +49,7 @@ body {
   width: 1.56vw;
   height: 1.56vw;
   position: absolute;
-  top: 16.2vw;
+  top: 15.9vw;
   right: 31.72vw;
 }
 
@@ -58,7 +57,7 @@ body {
   position: absolute;
   top: 80.45vw;
   left: 8.5vw;
-  font-size: clamp(0.5rem, 5vw, 5.625rem);
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
@@ -80,7 +79,7 @@ body {
   margin-bottom: 27px;
 }
 .throughRussia__text {
-  font-size: clamp(0.6em, 3vw, 1.875rem);
+  font-size: clamp(0.6em, 1.5vw, 1.875rem);
   width: 42.5vw;
   max-width: 839px;
   margin-left: 3.96vw;
@@ -92,7 +91,7 @@ body {
   width: 1.56vw;
   height: 1.56vw;
   position: absolute;
-  top: 85.5vw;
+  top: 84.7vw;
   left: 19.53vw;
 }
 
@@ -120,7 +119,7 @@ body {
 }
 .SummerCamps__right-text {
   text-wrap: balance;
-  font-size: clamp(0.6em, 3vw, 1.875rem);
+  font-size: clamp(0.6rem, 1.5vw, 1.875rem);
   width: 34.69vw;
 }
 @media (max-width: 1440px) {
@@ -140,24 +139,122 @@ body {
   width: 1.56vw;
   height: 1.56vw;
   position: absolute;
-  left: 45.26vw;
-  top: 140.78vw;
+  left: 46.88vw;
+  top: 161.61vw;
 }
 
 .maria {
   width: 35.47vw;
   max-width: 681px;
-  font-size: clamp(0.6em, 3vw, 1.875rem);
+  font-size: clamp(0.6em, 1.5vw, 1.875rem);
   position: absolute;
-  top: 146.41vw;
-  left: 6.2vw;
+  top: 150.94vw;
+  right: 11.09vw;
 }
 
 .Contest_heading {
   position: absolute;
-  top: 139vw;
-  right: 21.18vw;
-  font-size: clamp(0.5rem, 5vw, 5.625rem);
+  top: 160vw;
+  right: 17.08vw;
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
   font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
+}
+
+.grade {
+  position: absolute;
+  top: 141.35vw;
+  right: 15.21vw;
+  width: 31.25vw;
+}
+
+.contest {
+  position: absolute;
+  width: 20.73vw;
+  left: 7.34vw;
+  top: 141.15vw;
+}
+
+.context_text {
+  width: 22.86vw;
+  max-width: 439px;
+  font-size: clamp(0.6em, 1.5vw, 1.875rem);
+  position: absolute;
+  top: 151.67vw;
+  left: 6.56vw;
+}
+
+.samara {
+  position: absolute;
+  top: 160vw;
+  left: 6.56vw;
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.thread {
+  position: absolute;
+  width: 33.59vw;
+  top: 169.43vw;
+  left: 36.93vw;
+}
+
+.thread_text {
+  width: 54.69vw;
+  max-width: 1050px;
+  font-size: clamp(0.6em, 1.5vw, 1.875rem);
+  position: absolute;
+  top: 180.89vw;
+  right: 7.92vw;
+}
+
+.thread_heading {
+  position: absolute;
+  top: 194.48vw;
+  right: 36.56vw;
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.mag__img {
+  position: absolute;
+  z-index: -1;
+  top: 203.96vw;
+  right: 5.63vw;
+}
+.mag__img-true {
+  width: 39.69vw;
+}
+
+.mag_heading {
+  position: absolute;
+  top: 218.33vw;
+  left: 7.45vw;
+  font-size: clamp(0.5rem, 3vw, 3.75rem);
+  font-family: "Fors Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.mag {
+  position: absolute;
+  width: 47.4vw;
+  top: 226.61vw;
+  left: 5.89vw;
+}
+
+.mag-text {
+  width: 47.4vw;
+  max-width: 910px;
+  font-size: clamp(0.6em, 1.5vw, 1.875rem);
+  position: absolute;
+  top: 238.85vw;
+  left: 7.4vw;
+}
+
+.mag__img-text {
+  margin-top: 18px;
+  font-size: clamp(0.3em, 3vw, 1.4rem);
+  text-align: end;
 }/*# sourceMappingURL=style.css.map */
